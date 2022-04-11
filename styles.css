@@ -1,0 +1,115 @@
+* {
+    font-family: 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(50, 115, 236);
+    margin-top: 50px;
+
+}
+
+.calculator {
+    /*main container of calculator*/
+    display: flex;
+    flex-flow: column;
+    background: rgb(0, 0, 0);
+    height: 77.3vh;
+    width: 48vw;
+    justify-content: center;
+    border: 2px solid rgb(213, 56, 228);
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.button-pad {
+    display: flex;
+    flex: 1 1 auto;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.number-pad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.number-buttons {
+    background: rgba(0, 0, 0, 0.778);
+    color: white;
+    font-size: 3em;
+    padding: 7.6%;
+}
+
+.operator-pad {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.operator-buttons {
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 3.5em;
+    padding: 7.6%;
+    width: 1.9em;
+    color: white;
+    background: black;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(213, 56, 228);
+    border-radius: 10px;
+    margin: 2px;
+}
+button.highlight {
+    border: 1px solid rgb(225, 228, 56);
+    
+}
+
+
+.screen .operator-buttons {
+    display: flex;
+    background: rgb(47, 46, 46);
+    font-size: 3em;
+    margin: 0;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.screen {
+    display: flex;
+    background: rgb(47, 46, 46);
+    font-size: 3em;
+    margin: 0;
+    padding: 5px;
+    color: rgb(213, 56, 228);
+    border-radius: 15px;
+}
+
+#clear,
+#equals {
+    font-size: 2.4em;
+    background-color: rgba(0, 0, 0, 0.435);
+}
+
+#clear {
+    font-size: 2.4em;
+    color: rgba(255, 10, 10, 0.435);
+}
+
+#equals {
+    font-size: 2.4em;
+    color: rgb(17, 43, 240);
+}

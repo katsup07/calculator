@@ -78,7 +78,7 @@ function handleClick(e) {
     
     setTimeout(()=> {
         this.classList.remove('highlight');
-    }, 500);
+    }, 300);
     
     if(onScreen){//if answer is displayed on screen from previous calculation, clear before next begins.
         clear();

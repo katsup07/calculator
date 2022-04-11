@@ -16,8 +16,8 @@ body {
     display: flex;
     flex-flow: column;
     background: rgb(0, 0, 0);
-    height: 77.3vh;
-    width: 48vw;
+    min-height: 77.3vh;
+    min-width: 48vw;
     justify-content: center;
     border: 2px solid rgb(213, 56, 228);
     border-radius: 15px;
@@ -56,10 +56,9 @@ body {
 
 .operator-buttons {
     display: flex;
-    flex: 1 1 auto;
     font-size: 3.5em;
     padding: 7.6%;
-    width: 1.9em;
+    min-width: 1.9em;
     color: white;
     background: black;
 }
